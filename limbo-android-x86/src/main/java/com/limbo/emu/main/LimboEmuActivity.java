@@ -18,7 +18,7 @@ public class LimboEmuActivity extends LimboActivity {
         if(LimboApplication.isHost64Bit() && Config.enableMTTCG)
             Config.enableMTTCG = true;
         else
-            Config.enableMTTCG = false;
+            Config.enableMTTCG = true;
         Config.osImages.put(getString(R.string.SlaxLinux), new LinksManager.LinkInfo(getString(R.string.SlaxLinux),
                 getString(R.string.SlaxLinuxDescr),
                 "https://github.com/limboemu/limbo/wiki/Slax",
