@@ -3,4 +3,4 @@ include ':limbo-android-x64'
 include ':limbo-android-arm'
 include ':limbo-android-sparc'
 include ':limbo-android-ppc'
-include ':limbo-android-x86
+include ':limbo-android-x86'
